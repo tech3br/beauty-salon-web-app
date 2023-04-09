@@ -14,6 +14,10 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+      dm_sans: ['DM Sans', 'sans-serif'],
+    },
     extend: {
       colors: {
         gray: {
