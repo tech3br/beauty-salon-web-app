@@ -5,7 +5,7 @@ export const menuLinks = [
   },
   {
     title: 'Sobre',
-    href: 'sobre',
+    href: '#sobre',
   },
   {
     title: 'Serviços',
