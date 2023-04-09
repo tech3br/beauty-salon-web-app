@@ -15,11 +15,13 @@ export const MainCoverView: React.FC<Props> = ({
   imageSrc,
 }) => {
   return (
-    <section className="flex h-[600px] items-center justify-center bg-red-100">
+    <section className="flex w-full items-center justify-center bg-red-100 py-16">
       <div className="container flex items-center justify-between">
-        <div className="mb-10 md:mb-0 md:w-1/2 lg:w-2/5">
-          <h1 className="mb-4 font-poppins text-4xl font-bold">{heading}</h1>
-          <p className="mb-4 font-dm_sans text-lg font-normal text-gray-700">
+        <div className="w-1/2">
+          <h1 className="mb-4 w-3/4 font-poppins text-4xl font-bold">
+            {heading}
+          </h1>
+          <p className="mb-4 w-3/4 font-dm_sans text-lg font-normal text-gray-700">
             {paragraph}
           </p>
           <button
@@ -29,7 +31,7 @@ export const MainCoverView: React.FC<Props> = ({
             {buttonText}
           </button>
         </div>
-        <div className="h-auto">
+        <div className="w-1/2">
           <Image width={600} height={100} src={imageSrc} alt="Cover Image" />
         </div>
       </div>
